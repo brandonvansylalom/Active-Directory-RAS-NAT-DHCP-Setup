@@ -1,7 +1,7 @@
 <h1>Active Directory Home Lab Project - Setting up RAS/NAT</h1>
 
 <h2>Description</h2>
-This project is a continuation of https://github.com/brandonvansylalom/Active-Directory-HomeLab-Setup and we will be setting up RAS/NAT, or Remote Access Server and Network Address Translation. The purpose behind this is to allow any Windows 10 Client that we join to our domain to be part of the virtual private space (being your AD/DC server) while still being able to access the internet outside. See diagram below for reference.
+This project is a continuation of https://github.com/brandonvansylalom/Active-Directory-HomeLab-Setup and we will be setting up RAS/NAT, or Remote Access Server and Network Address Translation. The purpose behind this is to allow any Windows 10 Client that we join to our domain to be part of the virtual private network (being your AD/DC server) while still being able to access the internet outside through the DC. See diagram below for reference.
 
 <br/>
 <img src="https://imgur.com/yibftVW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
