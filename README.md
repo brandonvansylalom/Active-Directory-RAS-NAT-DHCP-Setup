@@ -1,18 +1,10 @@
 <h1>Active Directory Home Lab Project - Setting up RAS/NAT</h1>
 
 <h2>Description</h2>
-This project is a continuation of will be setting up RAS/NAT, or Remote Access Server and Network Address Translation. The purpose behind this is to allow any Windows 10 Client that we join to our domain to be part of the virtual private space (being your AD/DC server) while still being able to access the internet outside. See diagram below for reference.
+This project is a continuation of https://github.com/brandonvansylalom/Active-Directory-HomeLab-Setup and we will be setting up RAS/NAT, or Remote Access Server and Network Address Translation. The purpose behind this is to allow any Windows 10 Client that we join to our domain to be part of the virtual private space (being your AD/DC server) while still being able to access the internet outside. See diagram below for reference.
 
 <br/>
 <img src="https://imgur.com/yibftVW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-
-<h2>Download the following:</h2>
-
-- <b>https://www.virtualbox.org/wiki/Downloads (Download the VirtualBox 7.0.18 Oracle VM VirtualBox Extension Pack as well)
-- <b>https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019
-- <b>https://www.microsoft.com/en-us/software-download/windows10
-
 <br />
 
 <h2>Languages and Utilities Used</h2>
@@ -24,12 +16,10 @@ This project is a continuation of will be setting up RAS/NAT, or Remote Access S
 - <b>Windows 10</b> (21H2)
 - <b>Windows Server 2016</b>
 - <b>Oracle VirtualBox</b>
-- <b>Windows 10 Image/ISO disc image file to load onto the virtualbox environment (https://www.microsoft.com/en-us/software-download/windows10)
 
 <h2>Lab walk-through/details:</h2>
 
 <p align="center">
-Download all of the necessary environments for the lab listed above. <br/>
 
 Launch virtualbox and create the VM for the Server 2019 computer for the domain controller (DC):  <br/>
 <img src="https://imgur.com/J23hbye.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
