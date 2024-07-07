@@ -1,7 +1,12 @@
 <h1>Active Directory Home Lab Project - Setting up RAS/NAT/DHCP</h1>
 
 <h2>Description</h2>
-This project is a continuation of https://github.com/brandonvansylalom/Active-Directory-HomeLab-Setup and we will be setting up RAS/NAT, or Remote Access Server and Network Address Translation. The purpose behind this is to allow any Windows 10 Client that we join to our domain to be part of the virtual private network (being your AD/DC server) while still being able to access the internet outside through the DC. Then, we will setup a DCHP server on our DC with the scope information from RAS/NAT. It will allow our Windows 10 clients to get an IP address to go to the Internet while being on a private internal network, just like in your SOHO office or if you were at school browsing the Internet and taking a break from studying. See diagram below for reference/network information.
+This project is a continuation of https://github.com/brandonvansylalom/Active-Directory-HomeLab-Setup and I will be setting up RAS/NAT, or Remote Access Server and Network Address Translation. The purpose behind this is to allow any Windows 10 Client that we join to our domain to be part of the virtual private network (being your AD/DC server) while still being able to access the internet outside through the DC. Then, we will setup a DCHP server on our DC with the scope information from RAS/NAT. It will allow our Windows 10 clients to get an IP address to go to the Internet while being on a private internal network, just like in your SOHO office or if you were at school browsing the Internet and taking a break from studying. See diagram below for reference/network information.
+
+<br>
+<br/>
+
+<b>ALL CREDITS ON THIS PROJECT GOES TO JOSH MADAKOR. <b> 
 
 <br/>
 <img src="https://imgur.com/yibftVW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
